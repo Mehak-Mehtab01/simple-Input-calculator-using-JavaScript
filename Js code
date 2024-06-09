@@ -1,0 +1,23 @@
+function cal(){
+var inputno1= parseInt(document.getElementById('inp1').value);
+var inputno2= parseInt(document.getElementById('inp2').value);
+var select = document.getElementById('opt').value;
+var result = document.getElementById('res');
+var calcul;
+if(select == '+'){
+    calcul = inputno1 + inputno2;
+}
+else if ( select == '-'){
+ calcul = inputno1 - inputno2;
+}
+else if (select == '*'){
+calcul = inputno1 * inputno2;
+}
+else if( select == '/'){
+calcul = inputno1 / inputno2;
+}
+else{
+    calcul = inputno1 % inputno2;
+}
+result.innerHTML= calcul;
+}

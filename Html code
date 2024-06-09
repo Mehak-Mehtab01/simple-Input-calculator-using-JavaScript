@@ -1,0 +1,56 @@
+# simple-input-calculator-using-JavaScript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body{
+            background-color: teal;
+        }
+        table{
+            margin-top: 150px;
+        }
+        #td-butt{
+            align-items: center;
+            text-align: center;
+            align-content: center;
+        }
+        #res{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            align-content: center;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+<body>
+   <center>
+    <table 
+        <tr>
+            <td><input type="number" placeholder="Enter your number" id="inp1"></td>
+            <td>
+                <select name="" id="opt">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">X</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                </select>
+            </td>
+            <td><input type="number" placeholder="Enter your number" id="inp2"></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="td-butt"><button onclick="cal()">Calculate</button></td>
+            
+        </tr>
+        <tr>
+            <td colspan="3"><p id="res"></p></td>
+        </tr>
+    </table>
+   </center>
+</body>
+</html>

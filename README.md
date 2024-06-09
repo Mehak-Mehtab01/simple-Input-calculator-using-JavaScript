@@ -1,1 +1,0 @@
-# simple-input-calculator-using-JavaScript
